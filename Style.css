@@ -92,5 +92,24 @@ main{
     color: #495057;
     font-size: 18px;
 }
+.iconos {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    left: 30%;
+}
+.redes {
+    position: relative;
+    align-items: center;
+}
+.footer {
+    padding-top: 30px;
+    top: 90%;
+    width: 100%;
+    height: 10%;
+}
+.iconos {
+    left: 0%;
+}
 
   
