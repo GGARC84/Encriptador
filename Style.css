@@ -81,7 +81,7 @@ main{
 .btn-encriptar:hover, .btn-desencriptar:hover{
         background-color: #F3F5FC;
         color: green;
-        padding: 1%;
+        padding: 1.2%;
     }
 .copiar{
     border: 1px solid #0A3871;
@@ -90,7 +90,7 @@ main{
     cursor: pointer;
     height: 67px;
     margin-left: 80px;
-    margin-top: 615px;
+    margin-top: 617px;
     position: relative;
     width: 336px;
 }

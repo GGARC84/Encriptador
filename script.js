@@ -46,12 +46,15 @@ function desencriptar(stringDesencriptado){
 }
 
 function copy(){
+    navigator.clipboard.writeText(mensaje.value)
+    .then(() => {
+      /*console.log('Texto copiado al portapapeles')*/
+      alert ("Texto copiado: " + mensaje.value)
+    })
+    .catch(err => {
+      console.error('Error al copiar al portapapeles:', err)
+    })
   
-    navigator.clipboard.writeText(mensaje.value);
-    alert(" Texto Copiado");
-    
 }
-
-
 
 
