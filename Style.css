@@ -45,7 +45,7 @@ main{
     margin-top: 90px;
     padding-left: 20px;
     height: 620px;
-    position: fixed;
+    position: absolute;
     resize: none;
 }
 .mensaje:focus{
@@ -96,7 +96,7 @@ main{
     position: relative;
     text-align: center;
     align-items: center;
-    left: 30%;
+    left: 100%;
 }
 .redes {
     position: relative;
@@ -108,16 +108,11 @@ main{
     width: 100%;
     height: 10%;
 }
-.iconos {
-    left: 0%;
-}
 
-    @media screen and (max-width: 480px) {
-        .iconos, .footer, .mensaje, .text-area {
+  @media screen and (max-width: 480px) {
+        .mensaje, .text-area, .iconos, .redes, .footer {
             width: auto;
-            min-height: 100vh;
-            background-size: cover;
-            background-attachment: fixed;
+            
         }
     }
 
