@@ -85,7 +85,7 @@ main{
     height: 67px;
     margin-left: 80px;
     margin-top: 633px;
-    position: fixed;
+    position: relative;
     width: 336px;
 }
 .informacion{
@@ -96,7 +96,7 @@ main{
     position: relative;
     text-align: center;
     align-items: center;
-    left: 100%;
+    left: 20%;
 }
 .redes {
     position: relative;
